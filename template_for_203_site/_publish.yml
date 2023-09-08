@@ -1,0 +1,4 @@
+- source: index.qmd
+  netlify:
+    - id: b2d4d6b5-d4a6-4436-82b4-3adf1c776912
+      url: 'https://storied-cendol-fb38cb.netlify.app'

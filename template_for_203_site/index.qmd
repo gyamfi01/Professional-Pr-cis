@@ -1,0 +1,40 @@
+---
+title: "Professional Précis"
+subtitle: "Author: (Jason Gyamfi)"
+---
+
+# About the Author
+
+Hello, my name is Jason Gyamfi, and I am looking forward to collaborating with everyone throughout the semester.
+
+
+# Week 1
+
+## SE1
+
+#### Summary
+
+The book "Software Engineering at Google" talks about the difference between "programming" and "software engineering". People often use these words in the same way, but they mean different things. Students usually learn about computers and then get jobs where they write code. "Software engineering" sounds more detailed, like it uses deeper knowledge, similar to jobs like building planes or bridges. But making software hasn't always been as strict or careful as these jobs. As we use software more in our daily lives, we need to be more careful making it. This book gives tips on how to do that better.
+
+#### Reflection
+
+After reflecting on the preface of this book, I feel that I will gain a different perspective on the world of computer science. I say this because I never realized how the terms "programming" and "software egineering" tie hand and hand. I feel that after reading this book I will learn about the evolution of programming and software egineering and overall gain a better understanding of the two.
+
+#### Use-Case
+
+The information I absored from the topics covered in this reading can apply to the Chasten project in many ways. For one understanding the differences between programming and software engineering will lead us to define roles clearly when working together. Furthermore, the continuous learning aspect of it. Since software engineering is always evolving, as stated in the preface, it will be encouraged for us students to continously update the project.
+
+## FB1
+
+#### Summary
+
+The Fuzzing book's section on software testing offered helpful information. It underlined how testing helps identify and address issues, improving software's stability and dependability. Yet, it also made clear that testing can't promise error-free code. Using an example like the divide-by-zero issue in the square root function, the chapter demonstrated the variation of testing, enhancing my grasp of this key software component.
+
+#### Reflection
+
+After reading and reflecting on this chapter of Fuzzing Book I realized how essential testing is to coding Testing helps you find the very small errors with your code that you may not realize is in your code.
+
+#### Use-Case
+
+The information I learned can be implemented in the chasten project in many ways. For example testing is somethig that will be used in our program in order to check if our codes are running properly.
+
