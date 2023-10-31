@@ -8,7 +8,7 @@ subtitle: "Author: (Jason Gyamfi)"
 Hello, my name is Jason Gyamfi, and I am looking forward to collaborating with everyone throughout the semester.
 
 
-# Week 1
+# Week 2
 
 ## SE1
 
@@ -37,4 +37,198 @@ After reading and reflecting on this chapter of Fuzzing Book I realized how esse
 #### Use-Case
 
 The information I learned can be implemented in the chasten project in many ways. For example testing is somethig that will be used in our program in order to check if our codes are running properly.
+
+# Week 3
+
+## SE2
+
+#### Summary
+
+The text explains the differences between making software and just coding. It talks about how long the code will be used and its ability to change with new tech or business needs. Making software involves teamwork and has its own challenges, like organizing the team and setting rules. As a project grows, it needs to work well and grow properly. Making decisions in software is complex, and sometimes you have to choose between not-so-perfect options. A software engineer's job is to aim for long-lasting software and manage the growth of the project.
+
+#### Reflection
+
+This text emphasizes the need for forward-thinking in software creation. The idea is to think about keeping software good for years, not just for a short time, which promotes a flexible approach. Hyrum’s Law shows how developers often use what they see in software, even if it's not a main part. The chapter also talks about the importance of individual learning and sharing what you know. This personal development helps the whole organization move forward.
+
+#### Use-Case
+
+I believe it's crucial when developing software for our project to consider the trade-offs involved. It's essential to understand the advantages and disadvantages of our software before releasing it. We shouldn't release software that has major flaws that could harm our code.
+
+## FB2
+
+#### Summary
+
+The "Code Coverage" section in the Fuzzing book gives a basic understanding of how code coverage works in fuzz testing. It shows how important it is for finding software flaws and gives useful tips on how to use techniques that guide fuzzing with coverage. This part also explains white box and black box testing, which are crucial for making sure software is of high quality. White box testing looks at the code inside, whereas black box testing checks how it works from the outside without knowing the internal details.
+
+#### Reflection
+
+In this section, I learned a lot about how important testing is in creating software. The chapter really focused on the need to test in many different situations, not just on writing the code. It’s about making sure the code works right and can handle different situations. The book also went through different ways to fix problems in the code, and I thought that part was really helpful.
+
+#### Use-Case
+
+For our goal, it's very important to write good test cases to make sure the project stays in great shape for a long time. We have to make testing just as important as making and putting in new code.
+
+# Week 4
+
+## SE3
+
+#### Summary
+
+This chapter points out the importance of teamwork in software engineering at Google, showing that creating software is a team effort. It emphasizes values like being humble, respectful, and trustworthy. While some people believe in the idea of a lone developer, real success in software comes from teams working well together. For software groups to last and do well, they need a strong team-focused culture, not just individual work. This mindset helps teams be creative, take risks, and understand that mistakes happen, all while supporting each other.
+
+#### Reflection
+
+
+This article really opened my eyes. I've never made software with a team before, so all of this is new to me. Learning about how to work well in a team is helpful
+
+#### Use-Case
+
+The guide discussed in the chapter can be a great tool for our software engineering class, especially during tough projects. It can assist us in building an effective team. For example, if there's a difficult system or method, rather than pushing back against it, we can aim to get it and adjust by collaborating and finding solutions as a team.
+
+## FB3
+
+#### Summary
+
+This chapter explains fuzzing as an effective testing method. Fuzzing means using random or almost random inputs to find problems in software. The chapter goes into detail about different fuzzing methods, like grammar-based and mutation-based fuzzing, and explains important ideas like checking how much code is tested and analyzing crashes. The chapter highlights how using automated tools for fuzzing can help find and use software issues more efficiently.
+
+#### Reflection
+
+The chapter dives deep into different fuzzing methods, like grammar-based and mutation-based fuzzing, giving readers a thorough grasp of this testing method. It also stresses the importance of ideas like how much code is tested and understanding crashes, which are crucial in spotting software problems. The main point of the chapter is the importance of using automated tools for fuzzing to find and fix issues quickly and effectively. This makes the chapter a must-read for those aiming to improve software strength and safety.
+
+#### Use-Case
+
+The chapter gives us deep knowledge about fuzzing, showing its importance in testing. Just as working together is key in software, fuzzing is a great and affordable way to better test our code and find weak spots in our software. We could use this method to test the Chasten program, especially for bugs caused by inputting code or using config files. While this method could be very useful for Chasten, I think it might be even more beneficial later in the semester when we begin working on the Astronaught tool.
+
+# Week 5
+
+## SE4
+
+#### Summary
+
+The main idea of the “Knowledge Sharing” chapter in SE is about how organizations in software engineering work. An organization in this field is essentially a team of engineers and developers working together to build and take care of software. Like in any group, there are hurdles that need to be jumped over to reach success in your project or final objective. Sometimes, software organizations struggle to build a learning environment where everyone feels comfortable admitting what they don’t know in order to learn from their peers. It’s about being willing to share your own gaps in knowledge to benefit from the knowledge of others. You have to be open and share to learn and grow.
+
+#### Reflection
+
+Reading through the chapter made me think about what is needed to create a space where everyone is always learning. You need to make sure that if you don't know something in a particular area, you talk to others and ask for help. This is true for experts in a field as well. As a software engineer, it's crucial to step out of your comfort zone and take on new challenges. You should also be ready to help out and share what you know with others who might not be as far along as you are, whether it's in a specific area or in solving a particular problem.
+
+#### Use-Case
+
+I believe that as a class, we are gradually getting a better grasp of chasten's tools and their functions during its development process. Nevertheless, it's crucial to acknowledge that some of us are progressing faster than others. Those who are more advanced should be willing to share their insights and knowledge. Additionally, when selecting issues to address, it’s vital to diversify our focus. This includes working on problems related to both the source code and the documentation.
+
+## FB4
+
+#### Summary
+
+This section of the Fuzzing book is about mutation analysis, a method of testing that helps us figure out how well a group of test cases can find problems. It checks if the tests can notice small tweaks or mutations in a function’s source code. The book refers to these tweaks as "artificial faults." Here's an example to show what that means:
+
+```python
+def triangle_m1(a, b, c):
+    if a == b:
+        if b == c:
+            return 'Equilateral'
+        else:
+            # return 'Isosceles'
+            return None  # <-- injected fault
+    else:
+        if b == c:
+            return "Isosceles"
+        else:
+            if a == c:
+                return "Isosceles"
+            else:
+                return "Scalene"
+```
+
+#### Reflection
+
+The idea of mutation analysis from the Fuzzing Book’s chapter gives us a useful way to see how good our test collections really are. It shows that just looking at how much of the structure the tests cover isn’t enough, as it doesn’t always mean the program’s results will be right. The code samples given, named ineffective_test_1 and ineffective_test_2, clearly show the difference between getting a lot of coverage and actually finding the software’s errors.
+
+#### Use-Case
+
+In chasten, it's crucial to apply the new methods we pick up during this course, whether it’s for writing test cases or handling source code. Our goal should be to create software that’s reliable and free from bugs; the more we can do that, the better. As we go through our textbooks, we should focus on discovering new approaches to tasks and then bring that understanding into our project.
+
+# Week 7
+
+## SE5
+
+#### Summary
+
+The “Engineering for Equity” chapter in the Software Engineering book talks about how important it is to notice and fix bias in software creation. It highlights the need for more variety and acceptance in the field to make sure software is made for all kinds of users. The chapter explains that unintentional bias can hurt groups of people who are not well represented, leading to problems in creating products. For example, it brings up a situation where Google’s picture-identifying technology didn’t take race into account, showing how things can go wrong. The chapter underlines how crucial it is for engineers to learn about and understand different kinds of users and their challenges, and it talks about the need for teams to be culturally diverse. It pushes for a design approach that includes everyone from the start and puts responsibility on engineers to create fair systems. The chapter encourages constant learning and progress, checking how fair systems are, and working with experts in diversity and inclusion to make software that is more inclusive.
+
+#### Reflection
+
+After reading this chapter, I realized that while I haven’t directly faced biases in software, I’ve definitely come across stories and examples of it. Being a software engineer, it’s crucial to understand the significant impact and influence we hold. The tools and software we create can deeply affect a person’s life and feelings based on their interactions with them.
+
+#### Use-Case
+
+Thinking about our chasten project, I notice there’s a bias because the program only supports Python source code at the moment.
+
+## FB5
+
+#### Summary
+
+The "Engineering for Equity" section in the Software Engineering book underlines how crucial it is to notice and fix any bias during the creation of software. It insists on the necessity of having variety and welcoming different people in the field to make software that suits a broad audience. The chapter explains that biases we’re not aware of can accidentally hurt groups that aren’t well-represented, causing products to fail. An example provided is Google’s image recognition technology, which didn’t properly include all races. The chapter urges engineers to pay attention to and understand the different backgrounds and challenges of users, and to create diverse development teams. It promotes designing with everyone in mind from the start and holds engineers accountable for making fair systems. Finally, the chapter pushes for ongoing learning, checking fairness levels, and getting help from experts in diversity and inclusion to develop software that includes everyone.
+
+#### Reflection
+
+The chapter reminds us that it’s both ethically right and practically important to tackle bias and support inclusion in software engineering. It admits that there’s still a lot of work to do before the industry can truly be inclusive and diverse. It urges a change in thinking – instead of making products for everyone, we should be making products with everyone, bringing users into every part of the product development process. It emphasizes that engineers need to think about how their products affect all kinds of users and questions old ways of doing things that put quick results before fairness.
+
+#### Use-Case
+
+While using chasten, I believe tools like integrate and datasette could use mutation-based fuzzing during testing. I've noticed that to execute those commands, you need to provide various file paths, which can be altered or mutated.
+
+# Week 8
+
+## SE6
+
+#### Summary
+
+The "How to Lead a Team" chapter starts by explaining the two different leadership positions: a manager and a tech lead. Both roles are crucial to a team’s success and need to be present at the same time. The chapter also introduces the idea of servant leadership, which aims to foster a culture of humility, respect, and trust, while meeting the needs of the team members and ensuring their well-being. Additionally, the chapter talks about "Antipatterns," which are behaviors and practices that managers should avoid. Examples of these harmful patterns include hiring people who are easy to control and manipulate, overlooking team members who are struggling with their technical work, and neglecting the personal needs of the team.
+
+#### Reflection
+
+Managers and tech leads need different abilities. It's possible to be both. However, a manager typically guides people and organizes plans to complete tasks, while a tech lead takes charge of engineering projects and helps with various software applications. I see myself as a mix of both, but I lean more towards being a tech lead. When I really grasp a topic, I take the lead on engineering tasks and provide assistance with various software applications in that domain.
+
+#### Use-Case
+
+As a group, we have several individuals ready to step up and take on managerial roles at times, and as the semester progresses, more people are becoming comfortable with leading the class. However, we face challenges because we lack a sufficient number of tech leads, and we aren’t all working together in the same space on the project. I believe that if we had class time dedicated to active communication, where everyone could discuss their challenges and share their knowledge, we would be in a much better position.
+
+## FB6
+
+### Summary
+
+This chapter presents the concept of Grammar, a method used to arrange symbols to generate various structured yet random string combinations. This enables us to craft intricate yet manageable string inputs that can be fed into various functions. For instance:
+
+```python
+US_PHONE_GRAMMAR: Grammar = {
+     "<start>": ["<phone-number>"],
+     "<phone-number>": ["(<area>)<exchange>-<line>"],
+     "<area>": ["<lead-digit><digit><digit>"],
+     "<exchange>": ["<lead-digit><digit><digit>"],
+     "<line>": ["<digit><digit><digit><digit>"],
+     "<lead-digit>": ["2", "3", "4", "5", "6", "7", "8", "9"],
+     "<digit>": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+}
+```
+
+#### Reflection
+
+This section introduces the idea of Grammar, a technique that organizes symbols to create diverse, structured, yet unpredictable combinations of strings. This approach allows us to create complex yet controllable string inputs that can be utilized in numerous functions. As an example:
+
+#### Use-Case
+
+I believe this testing method could be really helpful for the development of Chasten, particularly for testing XPath expressions across various XPath versions. We could create a grammar to produce a range of valid XPath expressions randomly, and then use these to test different XPath parsers.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
