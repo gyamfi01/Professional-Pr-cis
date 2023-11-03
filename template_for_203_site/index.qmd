@@ -219,6 +219,23 @@ This section introduces the idea of Grammar, a technique that organizes symbols 
 
 I believe this testing method could be really helpful for the development of Chasten, particularly for testing XPath expressions across various XPath versions. We could create a grammar to produce a range of valid XPath expressions randomly, and then use these to test different XPath parsers.
 
+# Week 9
+
+## SE7
+
+#### Summary
+
+The chapter on Leading at Scale talks about how a person moves from doing tasks alone to leading a team and even more. It looks at how engineers often become leaders of teams and points out that leaders tackle big, less concrete problems. The chapter outlines three main ideas for leaders: Always Be Deciding, which means choosing strategies; Always Be Leaving, which is about making the team work well on its own so the leader isn't the only one who can fix problems; and Always Be Scaling, which is about looking after your own energy and helping the team stand on its own. The key to being a good leader, the chapter says, is to create teams that can operate independently, foster strong leadership, establish good ways of working, and keep a culture of sticking with it over time.
+
+#### Reflection
+
+The chapter describes how an engineer grows into a leadership role, moving away from just technical work to making big decisions and leading a team. It highlights how important it is for leaders to let their team members do things on their own and to not spread themselves too thin, while still helping their team improve. The ideas of Deciding, Leaving, and Scaling are given as a simple guide to being a good leader, showing the shift from just knowing stuff about engineering to running a whole organization. The idea that a leader shouldn't be the only person who can solve problems, but instead should create a team that can keep going on its own, is a strong point. The chapter also talks about how success in leadership means solving problems over and over, facing new issues, and always learning and getting better as a leader.
+
+#### Use-Case
+
+In terms of a use case we as a class have definitely implemented the the three always of leadership.
+
+
 
 
 
