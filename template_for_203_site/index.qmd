@@ -235,6 +235,136 @@ The chapter describes how an engineer grows into a leadership role, moving away 
 
 In terms of a use case we as a class have definitely implemented the the three always of leadership.
 
+## FB7
+
+#### Summary
+
+In this part of the fuzzing book, we're improving the ideas from the last chapter about Grammar Fuzzing to make them work better. Before, we were using a method that worked with strings to do fuzzing, but now we're switching to a method that uses a tree-like structure. This tree method helps us keep an eye on how we're expanding elements, letting us track how one element grows into another within the tree. The tree is made up of points called nodes, and each node is connected to another, building up the tree shape.
+
+#### Reflection
+
+#### Use-Case
+
+# Week 10
+
+## SE8
+
+#### Summary
+
+This chapter from the Software at Google book talks about the importance of having rules and style guides in engineering, with Google as an example. It shows how Google's guidelines are customized for different programming languages, keeping up with changing standards. The chapter also points out the importance of updating rules regularly, as seen in Google's change from CamelCase to snake_case in Python. This shows the need for guidelines that can adapt in a fast-changing engineering world.
+
+#### Reflection
+
+The chapter provides a thorough understanding of the importance of regulations and standards in a large-scale engineering setting. It demonstrates how the foundation of coding practices is made up of strict guidelines and flexible rules that are in line with the objectives and values of the organization.  Clarity and minimization of unnecessary overhead are achieved by concentrating on the development of rules that support certain objectives rather than producing comprehensive rulebooks. In the end, the chapter highlights the crucial role that rules play in creating an engineering environment that is solid to time and scale, allowing for efficient codebase maintenance and fostering a shared development methodology.
+
+#### Use-Case
+
+For Chasten to succeed, policies guaranteeing scalability and adaptability must be put into place. Through regular evaluation, we can modify regulations to accommodate future needs. It's important to keep flexibility and refrain from turning every practice into a strict rule. A good strategy requires that these rules be followed consistently. Whenever possible, making enforcement will streamline the procedure and guarantee that the set practices are followed. By incorporating these ideas into our daily work, we can maintain organization and succeed as a team.
+
+## FB8
+
+#### Summary
+
+The excerpt talks about grammars and their many uses. It says grammars can represent different languages and create sentences in those languages. It also mentions that grammars can take a sentence and break it into its parts, like a puzzle, using a grammar tree. These parts can then be put back together to make new sentences.
+
+#### Reflection and Use-Case
+
+The passage emphasizes that grammars are versatile tools in computer science and language study. They are used to show how languages work and to create text. Breaking down sentences into parts using grammars helps us understand language structure better. Grammars are essential in various fields like natural language processing, making compilers, and analyzing programming languages. We can apply this to Chasten in order to improve code evaluation.
+
+# Week 11
+
+## SE9
+
+#### Summary
+
+#### Reflection and Use-Case
+
+## FB9
+
+#### Summary
+
+#### Reflection and Use-Case
+
+# Week 12
+
+## SE10
+
+#### Summary
+
+#### Reflection and Use-Case
+
+## DB1
+
+#### Summary
+
+#### Reflection and Use-Case
+
+# Week 13
+
+## SE11
+
+#### Summary
+
+A strong argument is made for the critical role that automated testing plays in the software development life cycle in the chapter "Testing Overview" in the book "Software Engineering at Google." The chapter emphasizes the essential idea that the later in the development process an issue is detected, the more expensive it might become if left unchecked. It presents the idea that businesses with strong testing procedures can quickly adjust to changing market conditions, customer preferences, and technology advancements in addition to preventing bugs from reaching customers.
+
+#### Reflection and Use-Case
+
+The "Testing Overview" chapter essentially asks us to see testing as an important component for navigating the difficulties of software development, rather than just  technical rules and regulations. Teams can avoid errors and establish themselves as flexible and innovative leaders in the rapidly evolving technology industry by including thorough testing procedures and accepting the dynamic nature of the development process.
+
+## DB2
+
+#### Summary
+
+In this chapter, the focus is on observing a program's state while it's running, which is essential for activities like logging and interactive debugging. The chapter emphasizes the efficiency of using Python to achieve this, requiring just a few lines of code to monitor program behavior and gather crucial information.
+
+#### Reflection and Use-Case
+
+This chapter emphasizes the importance of seeing the state of a program while it runs, which is a basic component of debugging and software development. It's interesting that Python's effectiveness in doing this task with little code is mentioned. It emphasizes how developers may now more easily observe program behavior because to the advancements in programming languages and tools. This feature is very helpful for debugging and troubleshooting, giving programmers a better understanding of what their code is doing while it is running.
+
+# Week 14
+
+## SE12
+
+#### Summary
+
+Unit testing is defined in this chapter as an approach that concentrates on testing particular features inside a larger program. Unit tests focus on the smallest functional "units," as opposed to more general testing.
+
+#### Reflection and Use-Case
+
+Because of the many test types, this chapter's extensive insights on test writing could occasionally feel overwhelming. My goal is to get a deeper comprehension and application of these principles, particularly in upcoming scientific computing initiatives. I'll reevaluate how we write tests going forward, trying to divide up complex test cases and stay away from duplication. Instead than making our testing suite slower with excessively many integration tests, we should concentrate on writing clear, effective tests. Our testing in Chasten will be streamlined by incorporating the "Don't Repeat Yourself" idea, guaranteeing concise, effective test cases free of needless duplication.
+
+
+## DB3
+
+#### Summary
+
+Debuggingbook's "Assertions" chapter explores the use of assertions in software engineering, especially when it comes to debugging and guaranteeing code correctness. As statements that outline specific conditions that are anticipated to hold true at runtime, assertions serve a number of important functions. Assertions automate checks, provide documentation, and facilitate debugging, all of which greatly improve the dependability, maintainability, and efficiency of software systems.
+
+#### Reflection and Use-Case
+
+Comparable to safety checks in computer programming are assertions. They aid with the early detection of errors, the documentation of intended functionality, and the maintenance of dependability and manageability. They serve as a sort of security guard, seeing problems before they become bigger ones. By ensuring that everyone is aware of how the code should behave, they also improve teamwork. Put simply, assertions are essential to maintaining the quality of software. We've already implemented assertions into our chasten tests, and they're working really well.
+
+# Week 15
+
+## DB4
+
+#### Summary
+
+The chapter on Statistical Debugging in the debugging book introduces a method that helps find which lines of code might be causing problems in a program. This technique looks at runs of the program that work and ones that don't, and it tries to find connections between those runs and specific lines of code. It uses a collector function to keep track of which lines of code are used when the program runs with different inputs. Then, it ranks these lines of code based on how often they appear in runs that don't work. This helps identify areas of the code where problems are more likely to occur. By comparing how often different lines are used in runs that work and those that don't, this method can point out suspicious parts of the code, making it easier to find potential issues. Looking at the connection between what happens when the code runs and whether it succeeds or fails is very helpful for debugging, especially when it focuses on the parts of the code that are most often linked to failures. These insights give us important clues about whether specific lines of code are related to program failures, making debugging easier.
+
+#### Reflection and Use-Case
+
+The lessons we've learned show just how vital it is to connect the dots between what we do and what happens next, especially when we're trying to figure out why things go wrong. But I have to admit, I'm a bit uncertain about how smoothly we can incorporate these methods because our project is quite complex. Nevertheless, I'm determined to dive deeper into these techniques and see if we can make them work for our project. I truly believe that if we give them a shot, they could make a big difference in how we pinpoint and fix issues in our programs, making them more dependable in the long run.
+
+
+
+
+
+
+
+
+
+
 
 
 

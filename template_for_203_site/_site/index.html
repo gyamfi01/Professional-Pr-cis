@@ -169,6 +169,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#summary-11" id="toc-summary-11" class="nav-link" data-scroll-target="#summary-11">Summary</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#week-9" id="toc-week-9" class="nav-link" data-scroll-target="#week-9">Week 9</a>
+  <ul class="collapse">
+  <li><a href="#se7" id="toc-se7" class="nav-link" data-scroll-target="#se7">SE7</a></li>
+  <li><a href="#fb7" id="toc-fb7" class="nav-link" data-scroll-target="#fb7">FB7</a></li>
+  </ul></li>
+  <li><a href="#week-10" id="toc-week-10" class="nav-link" data-scroll-target="#week-10">Week 10</a>
+  <ul class="collapse">
+  <li><a href="#se8" id="toc-se8" class="nav-link" data-scroll-target="#se8">SE8</a></li>
+  <li><a href="#fb8" id="toc-fb8" class="nav-link" data-scroll-target="#fb8">FB8</a></li>
+  </ul></li>
+  <li><a href="#week-11" id="toc-week-11" class="nav-link" data-scroll-target="#week-11">Week 11</a>
+  <ul class="collapse">
+  <li><a href="#se9" id="toc-se9" class="nav-link" data-scroll-target="#se9">SE9</a></li>
+  <li><a href="#fb9" id="toc-fb9" class="nav-link" data-scroll-target="#fb9">FB9</a></li>
+  </ul></li>
+  <li><a href="#week-12" id="toc-week-12" class="nav-link" data-scroll-target="#week-12">Week 12</a>
+  <ul class="collapse">
+  <li><a href="#se10" id="toc-se10" class="nav-link" data-scroll-target="#se10">SE10</a></li>
+  <li><a href="#db1" id="toc-db1" class="nav-link" data-scroll-target="#db1">DB1</a></li>
+  </ul></li>
+  <li><a href="#week-13" id="toc-week-13" class="nav-link" data-scroll-target="#week-13">Week 13</a>
+  <ul class="collapse">
+  <li><a href="#se11" id="toc-se11" class="nav-link" data-scroll-target="#se11">SE11</a></li>
+  <li><a href="#db2" id="toc-db2" class="nav-link" data-scroll-target="#db2">DB2</a></li>
+  </ul></li>
+  <li><a href="#week-14" id="toc-week-14" class="nav-link" data-scroll-target="#week-14">Week 14</a>
+  <ul class="collapse">
+  <li><a href="#se12" id="toc-se12" class="nav-link" data-scroll-target="#se12">SE12</a></li>
+  <li><a href="#db3" id="toc-db3" class="nav-link" data-scroll-target="#db3">DB3</a></li>
+  </ul></li>
+  <li><a href="#week-15" id="toc-week-15" class="nav-link" data-scroll-target="#week-15">Week 15</a>
+  <ul class="collapse">
+  <li><a href="#db4" id="toc-db4" class="nav-link" data-scroll-target="#db4">DB4</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -415,9 +449,175 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="use-case-11" class="level4">
 <h4 class="anchored" data-anchor-id="use-case-11">Use-Case</h4>
 <p>I believe this testing method could be really helpful for the development of Chasten, particularly for testing XPath expressions across various XPath versions. We could create a grammar to produce a range of valid XPath expressions randomly, and then use these to test different XPath parsers.</p>
-
-
 </section>
+</section>
+</section>
+</section>
+<section id="week-9" class="level1">
+<h1>Week 9</h1>
+<section id="se7" class="level2">
+<h2 class="anchored" data-anchor-id="se7">SE7</h2>
+<section id="summary-12" class="level4">
+<h4 class="anchored" data-anchor-id="summary-12">Summary</h4>
+<p>The chapter on Leading at Scale talks about how a person moves from doing tasks alone to leading a team and even more. It looks at how engineers often become leaders of teams and points out that leaders tackle big, less concrete problems. The chapter outlines three main ideas for leaders: Always Be Deciding, which means choosing strategies; Always Be Leaving, which is about making the team work well on its own so the leader isn’t the only one who can fix problems; and Always Be Scaling, which is about looking after your own energy and helping the team stand on its own. The key to being a good leader, the chapter says, is to create teams that can operate independently, foster strong leadership, establish good ways of working, and keep a culture of sticking with it over time.</p>
+</section>
+<section id="reflection-12" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-12">Reflection</h4>
+<p>The chapter describes how an engineer grows into a leadership role, moving away from just technical work to making big decisions and leading a team. It highlights how important it is for leaders to let their team members do things on their own and to not spread themselves too thin, while still helping their team improve. The ideas of Deciding, Leaving, and Scaling are given as a simple guide to being a good leader, showing the shift from just knowing stuff about engineering to running a whole organization. The idea that a leader shouldn’t be the only person who can solve problems, but instead should create a team that can keep going on its own, is a strong point. The chapter also talks about how success in leadership means solving problems over and over, facing new issues, and always learning and getting better as a leader.</p>
+</section>
+<section id="use-case-12" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-12">Use-Case</h4>
+<p>In terms of a use case we as a class have definitely implemented the the three always of leadership.</p>
+</section>
+</section>
+<section id="fb7" class="level2">
+<h2 class="anchored" data-anchor-id="fb7">FB7</h2>
+<section id="summary-13" class="level4">
+<h4 class="anchored" data-anchor-id="summary-13">Summary</h4>
+<p>In this part of the fuzzing book, we’re improving the ideas from the last chapter about Grammar Fuzzing to make them work better. Before, we were using a method that worked with strings to do fuzzing, but now we’re switching to a method that uses a tree-like structure. This tree method helps us keep an eye on how we’re expanding elements, letting us track how one element grows into another within the tree. The tree is made up of points called nodes, and each node is connected to another, building up the tree shape.</p>
+</section>
+<section id="reflection-13" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-13">Reflection</h4>
+</section>
+<section id="use-case-13" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-13">Use-Case</h4>
+</section>
+</section>
+</section>
+<section id="week-10" class="level1">
+<h1>Week 10</h1>
+<section id="se8" class="level2">
+<h2 class="anchored" data-anchor-id="se8">SE8</h2>
+<section id="summary-14" class="level4">
+<h4 class="anchored" data-anchor-id="summary-14">Summary</h4>
+<p>This chapter from the Software at Google book talks about the importance of having rules and style guides in engineering, with Google as an example. It shows how Google’s guidelines are customized for different programming languages, keeping up with changing standards. The chapter also points out the importance of updating rules regularly, as seen in Google’s change from CamelCase to snake_case in Python. This shows the need for guidelines that can adapt in a fast-changing engineering world.</p>
+</section>
+<section id="reflection-14" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-14">Reflection</h4>
+<p>The chapter provides a thorough understanding of the importance of regulations and standards in a large-scale engineering setting. It demonstrates how the foundation of coding practices is made up of strict guidelines and flexible rules that are in line with the objectives and values of the organization. Clarity and minimization of unnecessary overhead are achieved by concentrating on the development of rules that support certain objectives rather than producing comprehensive rulebooks. In the end, the chapter highlights the crucial role that rules play in creating an engineering environment that is solid to time and scale, allowing for efficient codebase maintenance and fostering a shared development methodology.</p>
+</section>
+<section id="use-case-14" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-14">Use-Case</h4>
+<p>For Chasten to succeed, policies guaranteeing scalability and adaptability must be put into place. Through regular evaluation, we can modify regulations to accommodate future needs. It’s important to keep flexibility and refrain from turning every practice into a strict rule. A good&nbsp;strategy requires that these rules be followed consistently. Whenever possible, making enforcement will streamline the procedure and guarantee that the set practices are followed. By incorporating these ideas into our daily work, we can maintain organization and succeed as a team.</p>
+</section>
+</section>
+<section id="fb8" class="level2">
+<h2 class="anchored" data-anchor-id="fb8">FB8</h2>
+<section id="summary-15" class="level4">
+<h4 class="anchored" data-anchor-id="summary-15">Summary</h4>
+<p>The excerpt talks about grammars and their many uses. It says grammars can represent different languages and create sentences in those languages. It also mentions that grammars can take a sentence and break it into its parts, like a puzzle, using a grammar tree. These parts can then be put back together to make new sentences.</p>
+</section>
+<section id="reflection-and-use-case" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case">Reflection and Use-Case</h4>
+<p>The passage emphasizes that grammars are versatile tools in computer science and language study. They are used to show how languages work and to create text. Breaking down sentences into parts using grammars helps us understand language structure better. Grammars are essential in various fields like natural language processing, making compilers, and analyzing programming languages. We can apply this to Chasten in order to improve code evaluation.</p>
+</section>
+</section>
+</section>
+<section id="week-11" class="level1">
+<h1>Week 11</h1>
+<section id="se9" class="level2">
+<h2 class="anchored" data-anchor-id="se9">SE9</h2>
+<section id="summary-16" class="level4">
+<h4 class="anchored" data-anchor-id="summary-16">Summary</h4>
+</section>
+<section id="reflection-and-use-case-1" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-1">Reflection and Use-Case</h4>
+</section>
+</section>
+<section id="fb9" class="level2">
+<h2 class="anchored" data-anchor-id="fb9">FB9</h2>
+<section id="summary-17" class="level4">
+<h4 class="anchored" data-anchor-id="summary-17">Summary</h4>
+</section>
+<section id="reflection-and-use-case-2" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-2">Reflection and Use-Case</h4>
+</section>
+</section>
+</section>
+<section id="week-12" class="level1">
+<h1>Week 12</h1>
+<section id="se10" class="level2">
+<h2 class="anchored" data-anchor-id="se10">SE10</h2>
+<section id="summary-18" class="level4">
+<h4 class="anchored" data-anchor-id="summary-18">Summary</h4>
+</section>
+<section id="reflection-and-use-case-3" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-3">Reflection and Use-Case</h4>
+</section>
+</section>
+<section id="db1" class="level2">
+<h2 class="anchored" data-anchor-id="db1">DB1</h2>
+<section id="summary-19" class="level4">
+<h4 class="anchored" data-anchor-id="summary-19">Summary</h4>
+</section>
+<section id="reflection-and-use-case-4" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-4">Reflection and Use-Case</h4>
+</section>
+</section>
+</section>
+<section id="week-13" class="level1">
+<h1>Week 13</h1>
+<section id="se11" class="level2">
+<h2 class="anchored" data-anchor-id="se11">SE11</h2>
+<section id="summary-20" class="level4">
+<h4 class="anchored" data-anchor-id="summary-20">Summary</h4>
+<p>A strong argument is made for the critical role that automated testing plays in the software development life cycle in the chapter “Testing Overview” in the book “Software Engineering at Google.” The chapter emphasizes the essential idea that the later in the development process an issue is detected, the more expensive it might become if left unchecked. It presents the idea that businesses with strong testing procedures can quickly adjust to changing market conditions, customer preferences, and technology advancements in addition to preventing bugs from reaching customers.</p>
+</section>
+<section id="reflection-and-use-case-5" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-5">Reflection and Use-Case</h4>
+<p>The “Testing Overview” chapter essentially asks us to see testing as an important component for navigating the difficulties of software development, rather than just &nbsp;technical rules and regulations. Teams can avoid errors and establish themselves as flexible and innovative leaders in the rapidly evolving technology industry by including thorough testing procedures and accepting the dynamic nature of the development process.</p>
+</section>
+</section>
+<section id="db2" class="level2">
+<h2 class="anchored" data-anchor-id="db2">DB2</h2>
+<section id="summary-21" class="level4">
+<h4 class="anchored" data-anchor-id="summary-21">Summary</h4>
+<p>In this chapter, the focus is on observing a program’s state while it’s running, which is essential for activities like logging and interactive debugging. The chapter emphasizes the efficiency of using Python to achieve this, requiring just a few lines of code to monitor program behavior and gather crucial information.</p>
+</section>
+<section id="reflection-and-use-case-6" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-6">Reflection and Use-Case</h4>
+<p>This chapter emphasizes the importance of seeing the state of a program while it runs, which is a basic component of debugging and software development. It’s interesting that Python’s effectiveness in doing this task with little code is mentioned. It emphasizes how developers may now more easily observe program behavior because to the advancements in programming languages and tools. This feature is very helpful for debugging and troubleshooting, giving programmers a better understanding of what their code is doing while it is running.</p>
+</section>
+</section>
+</section>
+<section id="week-14" class="level1">
+<h1>Week 14</h1>
+<section id="se12" class="level2">
+<h2 class="anchored" data-anchor-id="se12">SE12</h2>
+<section id="summary-22" class="level4">
+<h4 class="anchored" data-anchor-id="summary-22">Summary</h4>
+<p>Unit testing is defined in this chapter as an approach that concentrates on testing particular features inside a larger program. Unit tests focus on the smallest functional “units,” as opposed to more general testing.</p>
+</section>
+<section id="reflection-and-use-case-7" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-7">Reflection and Use-Case</h4>
+<p>Because of the many test types, this chapter’s extensive insights on test writing could occasionally feel overwhelming. My goal is to get a deeper comprehension and application of these principles, particularly in upcoming scientific computing initiatives. I’ll reevaluate how we write tests going forward, trying to divide up complex test cases and stay away from duplication. Instead than making our testing suite slower with excessively many integration tests, we should concentrate on writing clear, effective tests. Our testing in Chasten will be streamlined by incorporating the “Don’t Repeat Yourself” idea, guaranteeing concise, effective test cases free of needless duplication.</p>
+</section>
+</section>
+<section id="db3" class="level2">
+<h2 class="anchored" data-anchor-id="db3">DB3</h2>
+<section id="summary-23" class="level4">
+<h4 class="anchored" data-anchor-id="summary-23">Summary</h4>
+<p>Debuggingbook’s “Assertions” chapter explores the use of assertions in software engineering, especially when it comes to debugging and guaranteeing code correctness. As statements that outline specific conditions that are anticipated to hold true at runtime, assertions serve a number of important functions. Assertions automate checks, provide documentation, and facilitate debugging, all of which greatly improve the dependability, maintainability, and efficiency of software systems.</p>
+</section>
+<section id="reflection-and-use-case-8" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-8">Reflection and Use-Case</h4>
+<p>Comparable to safety checks in computer programming are assertions. They aid with the early detection of errors, the documentation of intended functionality, and the maintenance of dependability and manageability. They serve as a sort of security guard, seeing problems before they become bigger ones. By ensuring that everyone is aware of how the code should behave, they also improve teamwork. Put simply, assertions are essential to maintaining the quality of software. We’ve already implemented assertions into our chasten tests, and they’re working really well.</p>
+</section>
+</section>
+</section>
+<section id="week-15" class="level1">
+<h1>Week 15</h1>
+<section id="db4" class="level2">
+<h2 class="anchored" data-anchor-id="db4">DB4</h2>
+<section id="summary-24" class="level4">
+<h4 class="anchored" data-anchor-id="summary-24">Summary</h4>
+<p>The chapter on Statistical Debugging in the debugging book introduces a method that helps find which lines of code might be causing problems in a program. This technique looks at runs of the program that work and ones that don’t, and it tries to find connections between those runs and specific lines of code. It uses a collector function to keep track of which lines of code are used when the program runs with different inputs. Then, it ranks these lines of code based on how often they appear in runs that don’t work. This helps identify areas of the code where problems are more likely to occur. By comparing how often different lines are used in runs that work and those that don’t, this method can point out suspicious parts of the code, making it easier to find potential issues. Looking at the connection between what happens when the code runs and whether it succeeds or fails is very helpful for debugging, especially when it focuses on the parts of the code that are most often linked to failures. These insights give us important clues about whether specific lines of code are related to program failures, making debugging easier.</p>
+</section>
+<section id="reflection-and-use-case-9" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-and-use-case-9">Reflection and Use-Case</h4>
+<p>The lessons we’ve learned show just how vital it is to connect the dots between what we do and what happens next, especially when we’re trying to figure out why things go wrong. But I have to admit, I’m a bit uncertain about how smoothly we can incorporate these methods because our project is quite complex. Nevertheless, I’m determined to dive deeper into these techniques and see if we can make them work for our project. I truly believe that if we give them a shot, they could make a big difference in how we pinpoint and fix issues in our programs, making them more dependable in the long run.</p>
+
+
 </section>
 </section>
 </section>

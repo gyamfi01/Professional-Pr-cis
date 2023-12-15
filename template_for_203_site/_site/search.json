@@ -89,5 +89,96 @@
     "title": "Professional Précis",
     "section": "FB6",
     "text": "FB6\n\nSummary\nThis chapter presents the concept of Grammar, a method used to arrange symbols to generate various structured yet random string combinations. This enables us to craft intricate yet manageable string inputs that can be fed into various functions. For instance:\nUS_PHONE_GRAMMAR: Grammar = {\n     \"&lt;start&gt;\": [\"&lt;phone-number&gt;\"],\n     \"&lt;phone-number&gt;\": [\"(&lt;area&gt;)&lt;exchange&gt;-&lt;line&gt;\"],\n     \"&lt;area&gt;\": [\"&lt;lead-digit&gt;&lt;digit&gt;&lt;digit&gt;\"],\n     \"&lt;exchange&gt;\": [\"&lt;lead-digit&gt;&lt;digit&gt;&lt;digit&gt;\"],\n     \"&lt;line&gt;\": [\"&lt;digit&gt;&lt;digit&gt;&lt;digit&gt;&lt;digit&gt;\"],\n     \"&lt;lead-digit&gt;\": [\"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"],\n     \"&lt;digit&gt;\": [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"]\n}\n\nReflection\nThis section introduces the idea of Grammar, a technique that organizes symbols to create diverse, structured, yet unpredictable combinations of strings. This approach allows us to create complex yet controllable string inputs that can be utilized in numerous functions. As an example:\n\n\nUse-Case\nI believe this testing method could be really helpful for the development of Chasten, particularly for testing XPath expressions across various XPath versions. We could create a grammar to produce a range of valid XPath expressions randomly, and then use these to test different XPath parsers."
+  },
+  {
+    "objectID": "index.html#se7",
+    "href": "index.html#se7",
+    "title": "Professional Précis",
+    "section": "SE7",
+    "text": "SE7\n\nSummary\nThe chapter on Leading at Scale talks about how a person moves from doing tasks alone to leading a team and even more. It looks at how engineers often become leaders of teams and points out that leaders tackle big, less concrete problems. The chapter outlines three main ideas for leaders: Always Be Deciding, which means choosing strategies; Always Be Leaving, which is about making the team work well on its own so the leader isn’t the only one who can fix problems; and Always Be Scaling, which is about looking after your own energy and helping the team stand on its own. The key to being a good leader, the chapter says, is to create teams that can operate independently, foster strong leadership, establish good ways of working, and keep a culture of sticking with it over time.\n\n\nReflection\nThe chapter describes how an engineer grows into a leadership role, moving away from just technical work to making big decisions and leading a team. It highlights how important it is for leaders to let their team members do things on their own and to not spread themselves too thin, while still helping their team improve. The ideas of Deciding, Leaving, and Scaling are given as a simple guide to being a good leader, showing the shift from just knowing stuff about engineering to running a whole organization. The idea that a leader shouldn’t be the only person who can solve problems, but instead should create a team that can keep going on its own, is a strong point. The chapter also talks about how success in leadership means solving problems over and over, facing new issues, and always learning and getting better as a leader.\n\n\nUse-Case\nIn terms of a use case we as a class have definitely implemented the the three always of leadership."
+  },
+  {
+    "objectID": "index.html#fb7",
+    "href": "index.html#fb7",
+    "title": "Professional Précis",
+    "section": "FB7",
+    "text": "FB7\n\nSummary\nIn this part of the fuzzing book, we’re improving the ideas from the last chapter about Grammar Fuzzing to make them work better. Before, we were using a method that worked with strings to do fuzzing, but now we’re switching to a method that uses a tree-like structure. This tree method helps us keep an eye on how we’re expanding elements, letting us track how one element grows into another within the tree. The tree is made up of points called nodes, and each node is connected to another, building up the tree shape.\n\n\nReflection\n\n\nUse-Case"
+  },
+  {
+    "objectID": "index.html#se8",
+    "href": "index.html#se8",
+    "title": "Professional Précis",
+    "section": "SE8",
+    "text": "SE8\n\nSummary\nThis chapter from the Software at Google book talks about the importance of having rules and style guides in engineering, with Google as an example. It shows how Google’s guidelines are customized for different programming languages, keeping up with changing standards. The chapter also points out the importance of updating rules regularly, as seen in Google’s change from CamelCase to snake_case in Python. This shows the need for guidelines that can adapt in a fast-changing engineering world.\n\n\nReflection\nThe chapter provides a thorough understanding of the importance of regulations and standards in a large-scale engineering setting. It demonstrates how the foundation of coding practices is made up of strict guidelines and flexible rules that are in line with the objectives and values of the organization. Clarity and minimization of unnecessary overhead are achieved by concentrating on the development of rules that support certain objectives rather than producing comprehensive rulebooks. In the end, the chapter highlights the crucial role that rules play in creating an engineering environment that is solid to time and scale, allowing for efficient codebase maintenance and fostering a shared development methodology.\n\n\nUse-Case\nFor Chasten to succeed, policies guaranteeing scalability and adaptability must be put into place. Through regular evaluation, we can modify regulations to accommodate future needs. It’s important to keep flexibility and refrain from turning every practice into a strict rule. A good strategy requires that these rules be followed consistently. Whenever possible, making enforcement will streamline the procedure and guarantee that the set practices are followed. By incorporating these ideas into our daily work, we can maintain organization and succeed as a team."
+  },
+  {
+    "objectID": "index.html#fb8",
+    "href": "index.html#fb8",
+    "title": "Professional Précis",
+    "section": "FB8",
+    "text": "FB8\n\nSummary\nThe excerpt talks about grammars and their many uses. It says grammars can represent different languages and create sentences in those languages. It also mentions that grammars can take a sentence and break it into its parts, like a puzzle, using a grammar tree. These parts can then be put back together to make new sentences.\n\n\nReflection and Use-Case\nThe passage emphasizes that grammars are versatile tools in computer science and language study. They are used to show how languages work and to create text. Breaking down sentences into parts using grammars helps us understand language structure better. Grammars are essential in various fields like natural language processing, making compilers, and analyzing programming languages. We can apply this to Chasten in order to improve code evaluation."
+  },
+  {
+    "objectID": "index.html#se9",
+    "href": "index.html#se9",
+    "title": "Professional Précis",
+    "section": "SE9",
+    "text": "SE9\n\nSummary\n\n\nReflection and Use-Case"
+  },
+  {
+    "objectID": "index.html#fb9",
+    "href": "index.html#fb9",
+    "title": "Professional Précis",
+    "section": "FB9",
+    "text": "FB9\n\nSummary\n\n\nReflection and Use-Case"
+  },
+  {
+    "objectID": "index.html#se10",
+    "href": "index.html#se10",
+    "title": "Professional Précis",
+    "section": "SE10",
+    "text": "SE10\n\nSummary\n\n\nReflection and Use-Case"
+  },
+  {
+    "objectID": "index.html#db1",
+    "href": "index.html#db1",
+    "title": "Professional Précis",
+    "section": "DB1",
+    "text": "DB1\n\nSummary\n\n\nReflection and Use-Case"
+  },
+  {
+    "objectID": "index.html#se11",
+    "href": "index.html#se11",
+    "title": "Professional Précis",
+    "section": "SE11",
+    "text": "SE11\n\nSummary\nA strong argument is made for the critical role that automated testing plays in the software development life cycle in the chapter “Testing Overview” in the book “Software Engineering at Google.” The chapter emphasizes the essential idea that the later in the development process an issue is detected, the more expensive it might become if left unchecked. It presents the idea that businesses with strong testing procedures can quickly adjust to changing market conditions, customer preferences, and technology advancements in addition to preventing bugs from reaching customers.\n\n\nReflection and Use-Case\nThe “Testing Overview” chapter essentially asks us to see testing as an important component for navigating the difficulties of software development, rather than just  technical rules and regulations. Teams can avoid errors and establish themselves as flexible and innovative leaders in the rapidly evolving technology industry by including thorough testing procedures and accepting the dynamic nature of the development process."
+  },
+  {
+    "objectID": "index.html#db2",
+    "href": "index.html#db2",
+    "title": "Professional Précis",
+    "section": "DB2",
+    "text": "DB2\n\nSummary\nIn this chapter, the focus is on observing a program’s state while it’s running, which is essential for activities like logging and interactive debugging. The chapter emphasizes the efficiency of using Python to achieve this, requiring just a few lines of code to monitor program behavior and gather crucial information.\n\n\nReflection and Use-Case\nThis chapter emphasizes the importance of seeing the state of a program while it runs, which is a basic component of debugging and software development. It’s interesting that Python’s effectiveness in doing this task with little code is mentioned. It emphasizes how developers may now more easily observe program behavior because to the advancements in programming languages and tools. This feature is very helpful for debugging and troubleshooting, giving programmers a better understanding of what their code is doing while it is running."
+  },
+  {
+    "objectID": "index.html#se12",
+    "href": "index.html#se12",
+    "title": "Professional Précis",
+    "section": "SE12",
+    "text": "SE12\n\nSummary\nUnit testing is defined in this chapter as an approach that concentrates on testing particular features inside a larger program. Unit tests focus on the smallest functional “units,” as opposed to more general testing.\n\n\nReflection and Use-Case\nBecause of the many test types, this chapter’s extensive insights on test writing could occasionally feel overwhelming. My goal is to get a deeper comprehension and application of these principles, particularly in upcoming scientific computing initiatives. I’ll reevaluate how we write tests going forward, trying to divide up complex test cases and stay away from duplication. Instead than making our testing suite slower with excessively many integration tests, we should concentrate on writing clear, effective tests. Our testing in Chasten will be streamlined by incorporating the “Don’t Repeat Yourself” idea, guaranteeing concise, effective test cases free of needless duplication."
+  },
+  {
+    "objectID": "index.html#db3",
+    "href": "index.html#db3",
+    "title": "Professional Précis",
+    "section": "DB3",
+    "text": "DB3\n\nSummary\nDebuggingbook’s “Assertions” chapter explores the use of assertions in software engineering, especially when it comes to debugging and guaranteeing code correctness. As statements that outline specific conditions that are anticipated to hold true at runtime, assertions serve a number of important functions. Assertions automate checks, provide documentation, and facilitate debugging, all of which greatly improve the dependability, maintainability, and efficiency of software systems.\n\n\nReflection and Use-Case\nComparable to safety checks in computer programming are assertions. They aid with the early detection of errors, the documentation of intended functionality, and the maintenance of dependability and manageability. They serve as a sort of security guard, seeing problems before they become bigger ones. By ensuring that everyone is aware of how the code should behave, they also improve teamwork. Put simply, assertions are essential to maintaining the quality of software. We’ve already implemented assertions into our chasten tests, and they’re working really well."
+  },
+  {
+    "objectID": "index.html#db4",
+    "href": "index.html#db4",
+    "title": "Professional Précis",
+    "section": "DB4",
+    "text": "DB4\n\nSummary\nThe chapter on Statistical Debugging in the debugging book introduces a method that helps find which lines of code might be causing problems in a program. This technique looks at runs of the program that work and ones that don’t, and it tries to find connections between those runs and specific lines of code. It uses a collector function to keep track of which lines of code are used when the program runs with different inputs. Then, it ranks these lines of code based on how often they appear in runs that don’t work. This helps identify areas of the code where problems are more likely to occur. By comparing how often different lines are used in runs that work and those that don’t, this method can point out suspicious parts of the code, making it easier to find potential issues. Looking at the connection between what happens when the code runs and whether it succeeds or fails is very helpful for debugging, especially when it focuses on the parts of the code that are most often linked to failures. These insights give us important clues about whether specific lines of code are related to program failures, making debugging easier.\n\n\nReflection and Use-Case\nThe lessons we’ve learned show just how vital it is to connect the dots between what we do and what happens next, especially when we’re trying to figure out why things go wrong. But I have to admit, I’m a bit uncertain about how smoothly we can incorporate these methods because our project is quite complex. Nevertheless, I’m determined to dive deeper into these techniques and see if we can make them work for our project. I truly believe that if we give them a shot, they could make a big difference in how we pinpoint and fix issues in our programs, making them more dependable in the long run."
   }
 ]
